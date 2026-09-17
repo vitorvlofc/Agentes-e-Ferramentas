@@ -1,0 +1,18 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: meu-projeto-python
+
+    env_file:
+      - .env
+
+    volumes:
+      - .:/app
+      - ./data:/app/data
+
+    restart: unless-stopped
+
+    command: tail -f /dev/null

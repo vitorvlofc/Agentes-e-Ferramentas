@@ -1,0 +1,46 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bancos locais
+*.db-journal
+*.sqlite-shm
+*.sqlite-wal
+
+# Git
+.git/
+.gitignore
+
+# IDEs
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Variáveis de ambiente
+.env
+
+# Builds
+build/
+dist/
+*.egg-info/
+
+# Documentação/testes locais
+.pytest_cache/
+.coverage
+htmlcov/
